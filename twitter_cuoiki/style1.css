@@ -1,0 +1,204 @@
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.profile-background {
+  height: 320px;
+  background-image: ursl('https://pbs.twimg.com/profile_banners/439335622/1496682615/1500x500');
+  background-color: red;
+  position: relative;
+}
+.navbar {
+  background-color: blue;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.profile-stats {
+  background-color: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.profile-stats ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.profile-stats li {
+  display: inline-block;
+}
+.avatar1 {
+  background: #fff;
+  background-color: grseen;
+  background-image: url(http://3.bp.blogspot.com/-JCYefwq__2U/TxCfC3s1ZpI/AAAAAAAAKcM/u5mw7qPAL0w/s300-c/Camilla-Belle-6.jpg);
+  border: 5px solid #fff;
+  border-radius: 50%;
+  height: 200px;
+  position: relative;
+  width: 200px;
+  margin-left: 180px;		
+}
+.avatar-container {
+  bottom: -87px;
+  left: 10px;
+  position: absolute;
+  transition: bottom .3s;
+  z-index: 2;
+}
+div.bar {
+  height: 59px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
+
+}
+
+div.bar .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 285px;
+  height: 100%;
+}
+
+div.bar .content ul {
+  display: flex;
+  list-style: none;
+  height: 100%;
+}
+
+div.bar .content ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  position: relative;
+}
+
+div.bar .content ul li.active::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #3bb9e3;
+}
+
+div.bar .content ul li span {
+  color: #667580;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.bar .content ul li strong {
+  color: #667580;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+div.bar .content ul li.active strong {
+  color: #3bb9e3;
+}
+
+div.bar .content .actions {
+  display: flex;
+}
+
+div.bar .content .actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 34px;
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #3bb9e3;
+  border: 1px solid #3bb9e3;
+  border-radius: 16px;
+
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+.posttweetcontainer{
+	background:#D3D3D3;padding:10px 12px;position:relative;
+}
+
+.posttweetprofimg{
+	width:32px;height:32px;position:absolute;left:28px;top:13px;border-radius:50%;
+	 background-image: url(https://pbs.twimg.com/profile_images/679974972278849537/bzzb-6H4_400x400.jpg);
+}
+
+.ml56px{
+	margin-left:56px;
+}
+
+.ml58px{
+	margin-left:58px;
+}
+
+.mt10px{
+	margin-top: 10px;
+}
+
+.posttweettacontainer{
+	border-radius: 8px; border: 1px solid rgb(255, 153, 153); border-image: none; line-height: 20px; box-shadow: 0px 0px 0px 1px #ff9999; background-color: rgb(255, 255, 255);
+}
+
+.posttweetta{
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(230, 236, 240) rgb(230, 236, 240) currentColor; margin: 0px; padding: 8px; outline: 0px; border-radius: 8px; border-image: none; width: 100%; height: 50px; font-family: "Segoe UI",Arial,sans-serif; font-size: 14px; box-sizing: border-box; opacity: 0.8; background-color: rgb(255, 255, 255);
+}
+
+.posttweetcountcont{
+	overflow: hidden; margin-top: 10px;
+}
+
+.posttweetcount{
+	margin-right: 10px; display: block; float: right;
+}
+
+.posttweetbutcont{
+	overflow: hidden; margin-top: 10px;
+}
+
+.posttweetbut{
+	padding: 6px 16px; border-radius: 100px; border: 1px solid rgb(255, 50, 50); border-image: none; text-align: center; color: rgb(255, 255, 255); line-height: 20px; font-size: 14px; font-weight: bold; white-space: nowrap; position: relative; cursor: pointer; float: right; box-shadow: none; background-color: rgb(255, 50, 50);
+}
+
+.tweetscontainer{
+	background: rgb(255, 255, 255); list-style: none; margin: 0px; padding: 0px;
+}
+
+.tweetcontainer{
+	margin: 0px; padding: 10px; overflow: hidden; border-bottom-color: rgb(230, 236, 240); border-bottom-width: 1px; border-bottom-style: solid;
+}
+
+.tweetprofimg{
+	border-radius: 50%; width: 48px; height: 48px; margin-right: 10px; float: left;
+}
+
+.tweetprofname{
+	color:#14171a;font-size:14px;font-weight:bold;
+}
+
+.tweetprofuid{
+	color:#657786;font-size:14px;margin-left:5px;
+}
+
+.tweetstats{
+	margin-right: 30px; cursor: pointer;
+}
+
+.tweetstats i{
+	color: rgb(101, 119, 134); font-size: 16px;
+}
+
+.tweetstatscount{
+	color: rgb(101, 119, 134); line-height: 1; font-size: 12px; font-weight: bold; margin-left: 6px;
+}

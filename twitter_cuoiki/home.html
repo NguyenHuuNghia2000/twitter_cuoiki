@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Twitter Wall</title>
+		<link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style1.css" />
+  <script type="text/javascript" src="profile.js"></script>
+		<link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
+		<link href="index.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+		
+		<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+		<script src="profile.js"></script>	  
+	</head>
+	<body class="segoe" style="background: rgb(230, 236, 240);">
+		<header id="main-header">
+		    <div class="content">
+		      <nav>
+		        <ul>
+		          <li><img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/home.svg" alt="Home" /> Home</li>
+		          <li>
+		            <img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/notification.svg" alt="Notifications" />
+		            Notifications
+		          </li>
+		          <li><img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/message.svg" alt="Messages" />Messages</li>
+		        </ul>
+		      </nav>
+		      <img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/logo.svg" alt="Logo Twitter" />
+		      <div class="side">
+		        <input type="text" placeholder="Search on Twitter" />
+		        <!--<img src="/images/avatar.png" alt="" /> -->
+		        <button>Tweet</button>
+		      </div>
+    </div>
+  </header>
+  <div class="row profile-background">
+      <div class="container">
+      <!-- User main avatar -->
+          <div class="avatar-container">
+            <div class="avatar1">
+
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="bar">
+    <div class="content">
+
+      <ul>
+        <li class="active">
+          <span>Tweets</span>
+          <strong>1234</strong>
+        </li>
+        <li>
+          <span>Following</span>
+          <strong>5678</strong>
+        </li>
+        <li>
+          <span>Followers</span>
+          <strong>9012</strong>
+        </li>
+        <li>
+          <span>Favorites</span>
+          <strong>256</strong>
+        </li>
+      </ul>
+
+      <div class="actions">
+        <button>Follow</button>
+        <img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/more.svg" alt="More">
+      </div>
+
+    </div>
+  </div>
+  <div class="wrapper-content content">
+    <aside class="profile" style="margin-top: 20px;">
+      <h1>Breno Oliveira</h1>
+      <span>@brenoos</span>
+      <p>Um dev bacaninha apaixonado por tecnologia e novos desafios</p>
+
+      <ul class="info">
+        <li><img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/place.svg" alt="Place">Atibaia - SP</li>
+        <li><img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/url.svg" alt="URL">github.com/brenoos</li>
+        <li><img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/joined.svg" alt="Joined">Joined June 2007</li>
+        <li><img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/born.svg" alt="Born">Born the 14th of April 1994</li>
+      </ul>
+
+      <div class="widget followers">
+        <strong><img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/followers.svg" alt="Followers"> 73 followers that you know</strong>
+
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="widget images">
+        <strong><img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/images.svg" alt="Images"> 266 Photos and videos</strong>
+
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+    </aside>
+    <section class="timeline">
+      <nav>
+        <a class="active" href="">Tweets</a>
+        <a href="">Tweets and replies</a>
+        <a href="">Medias</a>
+      </nav>
+
+      <ul class="tweets">
+        
+        
+        
+        
+        
+        
+       <div class="rightcontainer">
+          <div class="posttweetcontainer">
+            <img class="posttweetprofimg" src="http://3.bp.blogspot.com/-JCYefwq__2U/TxCfC3s1ZpI/AAAAAAAAKcM/u5mw7qPAL0w/s300-c/Camilla-Belle-6.jpg">
+            <div class="ml56px">
+              <div class="posttweettacontainer">
+                <textarea id="posttweetta" class="posttweetta" placeholder="What's happening?"></textarea>
+                <div class="posttweetcountcont">
+                  <span class="posttweetcount"><span id="totalchars">0</span>/250</span>
+                </div>
+              </div>
+              <div class="posttweetbutcont">
+                <button id="posttweetbut" class="posttweetbut">Tweet</button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <ul id="tweetscontainer" class="tweetscontainer">
+              
+            </ul>
+          </div>
+        </div>
+
+      </ul>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <aside class="widgets">
+      <div class="widget follow">
+        <div class="title">
+          <strong>Who to follow</strong>
+          <a href="">Refresh</a>
+          <a href="">View all</a>
+        </div>
+
+        <ul>
+          <li>
+            <div class="profile">
+              <img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/avatar2.png" alt="Avatar2">
+              <div class="info">
+                <strong>Spade <span>@spade_be</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+
+          <li>
+            <div class="profile">
+              <img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/avatar2.png" alt="Avatar2">
+              <div class="info">
+                <strong>Spade <span>@spade_be</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+
+          <li>
+            <div class="profile">
+              <img src="file:///C:/Users/Acer/Desktop/twitter/twitter-clone-master/images/avatar2.png" alt="Avatar2">
+              <div class="info">
+                <strong>Spade <span>@spade_be</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+  </div>
+			
+
+
+				
+		
+	</body>
+</html>	
